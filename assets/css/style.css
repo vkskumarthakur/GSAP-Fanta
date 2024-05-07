@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 10vw;
+    color: #ffffff;
+    position: fixed;
+    z-index: 3;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.section-one{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(120deg, orange, rgb(245, 123, 9))
+}
+
+.section-one .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.section-one .container h1{
+    font-size: 18vw;
+    color: #ffffff;
+}
+.fantaimg{
+    width: 40vw;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+.orangegroupslice{
+    width: 20vw;
+    position:absolute;
+    bottom: 0;
+    right: 30vw;
+    z-index: 2;
+}
+.orangeslice{
+    position: absolute;
+    width: 16vw;
+    top: 10vh;
+    left: 33vw;
+}
+
+.leaf1{
+    position: absolute;
+    width: 10vw;
+    bottom: 10vh;
+    right: 10vw;
+}
+.leaf2{
+    position: absolute;
+    width: 10vw;
+    top: 10vh;
+    left: 10vw;
+    transform: rotate(180deg);
+}
+.section-two{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 221, 90);
+}
+.section-two .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.section-two .left-container, .right-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0vw 10vw;
+}
+
+.blobsvg{
+margin-top: 150px;
+}
+
+.section-three{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(120deg, orange, rgb(245, 123, 9))
+}
+
+.section-three .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 10vw;
+}
+
+.section-three .container .drink-card{
+    width: 25vw;
+    height: 100%;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.section-three .container .drink-card .card-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding: 5vh 0vw;
+    gap: 10px;
+}
+
+.card-footer h3{
+    color: #ffffff;
+}
+
+.section-three .container .drink-card .card-footer button  {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    padding: .5vw;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.section-three .container .drink-card:nth-child(1){
+    background-color: #472428;
+}
+.section-three .container .drink-card:nth-child(2){
+    background-color: #ff5f17;
+}
+.section-three .container .drink-card:nth-child(3){
+    background-color: #0E0E96;
+}
+
+.drink-card .coca-cola{
+    width: 13vw;
+    z-index: 1;
+}
+.drink-card .lemon{
+    width: 20vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+

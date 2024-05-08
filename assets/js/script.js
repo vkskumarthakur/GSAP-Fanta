@@ -38,6 +38,7 @@ scroll.to(
   {
     top: "160%",
     left: "25%",
+    rotate: "360deg",
   },
   "orange"
 );

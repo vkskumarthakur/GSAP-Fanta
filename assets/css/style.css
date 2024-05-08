@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 main{
     width: 100%;
     display: flex;
@@ -52,6 +55,7 @@ nav .menu a{
     position: absolute;
     top: 100px;
     z-index: 1;
+    filter: drop-shadow(0 0 0.75rem rgb(241, 240, 240));
 }
 
 .orangegroupslice{
@@ -102,7 +106,7 @@ nav .menu a{
 }
 
 .blobsvg{
-margin-top: 150px;
+margin-top: 200px;
 }
 
 .section-three{
